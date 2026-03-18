@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thé Bulles - Boutique de Bubble Tea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__brand">
+                <img src="public/images/bubble-chart.svg" alt="Logo Thé Bulles" class="header__logo-img">
+                <h1 class="header__title">Thé Bulles</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="#" class="header__link">Accueil</a></li>
+                    <li><a href="#" class="header__link">À propos</a></li>
+                    <li><a href="#" class="header__link">Nos services</a></li>
+                    <li><a href="#" class="header__link">Activités</a></li>
+                    <li><a href="#" class="header__link">Témoignages</a></li>
+                    <li><a href="#" class="header__link">Nous joindre</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn--accent">Commander</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h2 class="hero__headline">Chez <span class="text-primary">Thé Bulles</span></h2>
+                    <p class="hero__subheadline">Découvrez notre sélection de thés maison exquis.</p>
+                    <div class="hero__actions">
+                        <button class="btn btn--secondary">En savoir plus</button>
+                        <button class="btn btn--primary">Commander maintenant</button>
+                    </div>
+                </div>
+                <div class="hero__image-wrapper">
+                    <img src="public/images/image.png" alt="Bubble Tea" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title section-title--white">À propos</h2>
+                <p class="about__intro">Nous sommes passionnés par le thé et souhaitons partager notre amour avec vous !</p>
+                <div class="about__grid">
+                    <article class="info-card">
+                        <div class="info-card__icon-wrapper">
+                        <img src="public/images/history-edu.svg" alt="histoire" class="info-card__img">
+                        </div>
+                        <div class="info-card__body">
+                            <h3 class="info-card__title">Notre histoire</h3>
+                            <p class="info-card__text">Chez Thé Bulle, chaque tasse de thé est préparée avec soin.</p>
+                        </div>
+                    </article>
+                    <article class="info-card">
+                        <div class="info-card__icon-wrapper">
+                        <img src="public/images/emoji-food-beverage.svg" alt="thé" class="info-card__img">
+                        </div>
+                        <div class="info-card__body">
+                            <h3 class="info-card__title">Nos thés tant appréciés</h3>
+                            <p class="info-card__text">Recettes est concoctées avec tout notre coeur.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2 class="section-title">Nos produits</h2>
+                <div class="products__grid">
+                    <div class="product-card">
+                        <div class="product-card__badge product-card__badge--try">À essayer</div>
+                        <div class="product-card__img-placeholder"></div>
+                        <h3 class="product-card__name">Bubble Tea au Lait</h3>
+                        <p class="product-card__desc">Délicieux, crémeux et mémorable.</p>
+                    </div>
+                    <div class="product-card product-card--featured">
+                        <div class="product-card__badge product-card__badge--popular">Populaire</div>
+                        <div class="product-card__img-placeholder"></div>
+                        <h3 class="product-card__name">Thé Glacé</h3>
+                        <p class="product-card__desc">Rafraîchissant pour les journées chaudes.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__badge product-card__badge--house">Fait maison</div>
+                        <div class="product-card__img-placeholder"></div>
+                        <h3 class="product-card__name">Thé aux Fruits</h3>
+                        <p class="product-card__desc">Une explosion de saveurs en bouche.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="opening-hours">
+            <div class="container">
+                <h2 class="section-title">Heures d'ouvertures</h2>
+                <p class="section-subtitle">Venez nous rendre visite !</p>
+                <div class="opening-hours__grid">
+                    <div class="hour-item">
+                        <div class="hour-item__icon">🕒</div>
+                        <h3 class="hour-item__day">Lundi - Vendredi</h3>
+                        <p class="hour-item__time">10h - 22h</p>
+                    </div>
+                    <div class="hour-item">
+                        <div class="hour-item__icon">🕒</div>
+                        <h3 class="hour-item__day">Samedi</h3>
+                        <p class="hour-item__time">11h - 23h</p>
+                    </div>
+                    <div class="hour-item">
+                        <div class="hour-item__icon">🕒</div>
+                        <h3 class="hour-item__day">Dimanche</h3>
+                        <p class="hour-item__time">10h - 20h</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container reviews__container">
+                <h2 class="section-title">Témoignages</h2>
+                <div class="reviews__list">
+                    <div class="review-card">
+                        <p class="review-card__text">"Meilleur bubble tea que j'aie jamais goûté !"</p>
+                        <p class="review-card__author">Sophie</p>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-card__text">"Un endroit agréable pour se détendre."</p>
+                        <p class="review-card__author">Jean</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <div class="team__header">
+                    <h2 class="team__title">Notre super équipe</h2>
+                    <button class="btn btn--secondary">Rejoindre notre équipe</button>
+                </div>
+                <div class="team__grid">
+                    <div class="team-member">
+                        <div class="team-member__photo"></div>
+                        <h4 class="team-member__name">Alice - Barista</h4>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member__photo"></div>
+                        <h4 class="team-member__name">Max - Propriétaire</h4>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member__photo"></div>
+                        <h4 class="team-member__name">Lucie - Gestion</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <h2 class="section-title">Nos prix</h2>
+                <div class="pricing__grid">
+                    <div class="price-card">
+                        <p class="price-card__size">Petite Tasse</p>
+                        <p class="price-card__amount">3$</p>
+                    </div>
+                    <div class="price-card price-card--featured">
+                        <p class="price-card__size">Moyenne Tasse</p>
+                        <p class="price-card__amount">5$</p>
+                    </div>
+                    <div class="price-card">
+                        <p class="price-card__size">Grande Tasse</p>
+                        <p class="price-card__amount">6$</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container contact__container">
+                <div class="contact__content">
+                    <h2 class="section-title">Nous contacter</h2>
+                    
+                    <form class="contact__form">
+                        <div class="contact__field">
+                            <label for="name" class="contact__label"> Votre Nom</label>
+                            <input type="text" id="name" class="contact__input" placeholder="Entrer votre nom">
+                        </div>
+                        <div class="contact__field">
+                            <label for="email" class="contact__label"> Votre Email</label>
+                            <input type="email" id="email" class="contact__input" placeholder="Entrer votre email">
+                        </div>
+                        <div class="contact__field">
+                            <label for="message" class="contact__label"> Votre Message</label>
+                            <textarea id="message" class="contact__textarea" placeholder="Écrivez votre message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Envoyer</button>
+                    </form>
+                </div>
+
+                <div class="contact__info">
+                    <div class="contact__info-item">
+                        <p>4444 rue des Bulles, Montréal</p>
+                    </div>
+                    <div class="contact__info-item">
+                        <p>(514) 555-0123</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__top">
+                <div class="footer__contact">
+                    <h3 class="footer__title">Nous joindre</h3>
+                    <p class="footer__text">4444 rue des Bulles, Montréal, QC</p>
+                </div>
+                <div class="footer__map">
+                    <div class="map-placeholder">Carte Google Maps</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
